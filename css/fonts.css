@@ -1,0 +1,58 @@
+
+
+@font-face {
+    font-family: 'Libre Baskerville';
+    src: url('../fonts/LibreBaskerville-Regular.ttf') format('ttf'),
+        url('../fonts/LibreBaskerville-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Libre Baskerville';
+    src: url('../fonts/LibreBaskerville-Bold.ttf') format('ttf'),
+        url('../fonts/LibreBaskerville-Bold.ttf') format('ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'Sora';
+    src: url('../fonts/Sora-Regular.ttf') format('ttf'),
+        url('../fonts/Sora-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Sora';
+    src: url('../fonts/Sora-Medium.ttf') format('ttf'),
+        url('../fonts/Sora-Medium.ttf') format('ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sora';
+    src: url('../fonts/../fonts/Sora-SemiBold.ttf') format('ttf'),
+        url('../fonts/Sora-SemiBold.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Sora';
+    src: url('../fonts/Sora-Bold.ttf') format('ttf'),
+        url('../fonts/Sora-Bold.ttf') format('ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Sora';
+    src: url('../fonts/../fonts/Sora-ExtraBold.ttf') format('ttf'),
+        url('../fonts/Sora-ExtraBold.ttf') format('ttf');
+    font-weight: 900;
+    font-style: normal;
+}

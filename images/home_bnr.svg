@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="898" viewBox="0 0 1920 898">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" y1="0.232" x2="0" y2="0.225" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fce7f6"/>
+      <stop offset="1" stop-color="#e3eaf8"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1687" data-name="Rectangle 1687" width="1920" height="896" transform="translate(0 504)" fill="url(#linear-gradient)"/>
+    </clipPath>
+    <radialGradient id="radial-gradient" cx="0.695" cy="0.64" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fecbe2"/>
+      <stop offset="0" stop-color="#fed0e5"/>
+      <stop offset="1" stop-color="#fff6fb"/>
+    </radialGradient>
+  </defs>
+  <g id="Group_1669" data-name="Group 1669" transform="translate(0 -3883)">
+    <rect id="Rectangle_48" data-name="Rectangle 48" width="1920" height="895" transform="translate(0 3883)" fill="url(#linear-gradient)"/>
+    <g id="Mask_Group_78" data-name="Mask Group 78" transform="translate(0 3381)" clip-path="url(#clip-path)">
+      <g id="Group_1651" data-name="Group 1651" transform="translate(-95 542.976)">
+        <ellipse id="Ellipse_45" data-name="Ellipse 45" cx="137.5" cy="130" rx="137.5" ry="130" transform="translate(0 156.024)" fill="url(#radial-gradient)"/>
+        <ellipse id="Ellipse_46" data-name="Ellipse 46" cx="102.5" cy="97" rx="102.5" ry="97" transform="translate(1584 379.024)" fill="url(#radial-gradient)"/>
+        <ellipse id="Ellipse_47" data-name="Ellipse 47" cx="48" cy="45.5" rx="48" ry="45.5" transform="translate(1707 351.024)" fill="url(#radial-gradient)"/>
+        <ellipse id="Ellipse_48" data-name="Ellipse 48" cx="69.5" cy="65.5" rx="69.5" ry="65.5" transform="translate(1095 -8.976)" fill="url(#radial-gradient)"/>
+        <ellipse id="Ellipse_49" data-name="Ellipse 49" cx="69.5" cy="66" rx="69.5" ry="66" transform="translate(1931 610.024)" fill="url(#radial-gradient)"/>
+        <ellipse id="Ellipse_50" data-name="Ellipse 50" cx="37.5" cy="35.5" rx="37.5" ry="35.5" transform="translate(300 772.024)" fill="url(#radial-gradient)"/>
+      </g>
+    </g>
+  </g>
+</svg>
