@@ -1,0 +1,145 @@
+@media only screen and (max-width: 767px) {
+  header#masthead {
+    height: 80px;
+    background: #efebef;
+  }
+  .dspy_dstp_none {
+    display: block;
+  }
+  .main-navigation ul {
+    display: block;
+    float: left;
+  }
+  .menu_blog {
+    padding: 0;
+  }
+  .main-navigation {
+    background-color: #efebef;
+    height: 90vh;
+    display: none;
+  }
+  .main-navigation li {
+    margin: 2rem 0;
+  }
+  .slide h2 {
+    font-size: 30px;
+  }
+  .z-in-box {
+    z-index: 998;
+  }
+  .best_design img {
+    height: 250px;
+  }
+  .best_design h3,
+  .left_section_box h2,
+  .main_heading h2 {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+  section.portfolio_hero {
+    padding: 0;
+  }
+  .portfolio .filters-content .item img {
+    height: auto;
+    width: 100%;
+  }
+  .text_box_sty > div {
+    padding: 30px;
+  }
+  .left_section {
+    padding: 20px;
+  }
+  .left_section:before {
+    width: 5%;
+    right: -5%;
+  }
+  .what_help,
+  .success_story,
+  .how_to_apply,
+  .best_design {
+    padding: 40px 0;
+  }
+  .wrpr_arrow.wrpr_arrow_top {
+    right: 5px;
+  }
+  .bg1 {
+    width: 90%;
+    margin: -16px auto 0;
+    font-size: 12px;
+  }
+  .bg2 {
+    width: 85%;
+    margin: -56px auto 0;
+    font-size: 12px;
+  }
+  .bg3 {
+    width: 80%;
+    margin: -77px auto 0;
+    font-size: 12px;
+  }
+  .filters-content .gallery_zoom .grid-item:last-child {
+    margin-bottom: 0px;
+  }
+  .filters-content .grid-item {
+    padding: 0;
+  }
+  .cat {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  .image-box-stories {
+    border-radius: 20px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .slide h2 {
+    font-size: 40px;
+  }
+  .slide p,
+  .best_design h5 {
+    font-size: 16px;
+  }
+  .best_design h3,
+  .left_section_box h2 {
+    font-size: 35px;
+    line-height: 1.2;
+  }
+  .best_design img {
+    height: 220px;
+  }
+  .best_design p {
+    font-size: 14px;
+  }
+  .best_design ul li {
+    font-size: 14px;
+  }
+  .best_design {
+    padding: 3rem 0;
+  }
+  .portfolio .filters-content .item img {
+    height: auto !important;
+    width: 100%;
+  }
+  .what_help,
+  .success_story,
+  .how_to_apply {
+    padding: 3rem 0;
+  }
+  .filters-content .gallery_zoom .grid-item:last-child {
+    margin-bottom: 0px;
+  }
+  .image-box-stories {
+    border-radius: 20px;
+  }
+}
+@media only screen and (max-width: 1320px) {
+  .best_design ul li {
+    font-size: 12px;
+  }
+  .portfolio .filters-content .item img {
+    height: 210px;
+  }
+  .portfolio .filters-content .p-inner h5 {
+    font-size: 17px;
+  }
+}
