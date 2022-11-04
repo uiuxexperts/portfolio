@@ -1,0 +1,112 @@
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/img/favicon.png" sizes="32x32">
+    <link rel="apple-touch-icon" href="assets/img/favicon.png">
+    <title>404</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600;900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/4b9ba14b0f.js" crossorigin="anonymous"></script>
+  <style type="text/css">
+
+body {
+ background: url(images/bg.png) center center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;   overflow: hidden;
+}
+
+.mainbox {
+ 
+  margin: auto;
+  height: 100vh;
+  width: 100vw;
+  position: relative; text-align: center;display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.msg {
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.1rem;
+    width: 75%;
+  }
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.mainbox img.bnr{width: 50vw;}
+
+
+
+
+/* CSS */
+.button-51 {
+  background-color: transparent;
+  border: 1px solid #e8505b;
+  box-sizing: border-box;
+  color: #00132C;
+  font-family: "Avenir Next LT W01 Bold",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 16px 23px;
+  position: relative;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-51:hover,
+.button-51:active {
+  outline: 0;
+}
+
+.button-51:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.button-51:before {
+  background-color: #f7c3c7;
+  content: "";
+  height: calc(100% + 3px);
+  position: absolute;
+  right: -7px;
+  top: -9px;
+  transition: background-color 300ms ease-in;
+  width: 100%;
+  z-index: -1;
+}
+
+.button-51:hover:before {
+  background-color: #ed8c93;
+}
+
+@media (min-width: 768px) {
+  .button-51 {
+    padding: 16px 32px;
+  }
+}
+</style>
+</head>
+<body>
+  <div class="mainbox">
+   
+
+    <img class="bnr" src="images/error.svg">
+    <div class="msg">Maybe this page moved? Got deleted? Is hiding out in quarantine? Never existed in the first place?</div>
+<br>
+<button class="button-51" role="button">Go to Home</button>
+    
+      </div>

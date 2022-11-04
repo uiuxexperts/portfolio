@@ -29,8 +29,9 @@ $('#scroll').click(function () {
    $("html, body").animate({ scrollTop: 0 }, 600);
    return false;
 });
-jQuery(".burger").click(function (e) {
-   jQuery(this).toggleClass("opened");
+jQuery(".navTrigger").click(function (e) {
+   jQuery(this).toggleClass("active");
+   jQuery(".toggle_box").toggleClass("toggled");
    jQuery(".menu_blog").toggleClass("toggled");
    e.preventDefault();
 });
@@ -72,7 +73,7 @@ jQuery(document).ready(function ($) {
       }]
    });
 
-   jQuery('.story_slider').slick({
+   jQuery('.story_slider1').slick({
       dots: false,
       infinite: true,
       speed: 500,
@@ -122,3 +123,59 @@ $(document).on('click', 'a[href^="#"]', function (event) {
 });
 
 
+
+
+$(document).ready(function(){
+
+        var list = $(".gallery_zoom .grid-item1");
+        var numToShow = 6;
+        var button = $("#see_more");
+        var numInList = list.length;
+        list.hide();
+        if (numInList > numToShow) {
+          button.show();
+        }
+        list.slice(0, numToShow).show();
+  
+        button.click(function(){
+            var showing = list.filter(':visible').length;
+            list.slice(showing - 1, showing + numToShow).fadeIn();
+            var nowShowing = list.filter(':visible').length;
+            if (nowShowing >= numInList) {
+              button.hide();
+            }
+        });
+
+// //////
+
+ new Swiper('.story_slider', {
+    speed: 600,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    slidesPerView: 'auto',
+     navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    }
+  });
+
+
+//  $('.tilt').tilt({
+
+//     scale: 1.1,
+
+//     glare: true,
+
+//   maxGlare: 0.3
+
+// });
+  
+  });

@@ -1,100 +1,32 @@
-@media only screen and (max-width: 767px) {
-  header#masthead {
-    height: 80px;
-    background: #efebef;
-  }
-  .dspy_dstp_none {
-    display: block;
-  }
-  .main-navigation ul {
-    display: block;
-    float: left;
-  }
-  .menu_blog {
-    padding: 0;
-  }
-  .main-navigation {
-    background-color: #efebef;
-    height: 90vh;
-    display: none;
-  }
-  .main-navigation li {
-    margin: 2rem 0;
-  }
-  .slide h2 {
-    font-size: 30px;
-  }
-  .z-in-box {
-    z-index: 998;
-  }
-  .best_design img {
-    height: 250px;
-  }
-  .best_design h3,
-  .left_section_box h2,
-  .main_heading h2 {
-    font-size: 30px;
-    line-height: 1.2;
-  }
-  section.portfolio_hero {
-    padding: 0;
+
+@media only screen and (max-width: 1320px) {
+  .best_design ul li {
+    font-size: 12px;
   }
   .portfolio .filters-content .item img {
-    height: auto;
-    width: 100%;
+    height: 210px;
   }
-  .text_box_sty > div {
-    padding: 30px;
-  }
-  .left_section {
-    padding: 20px;
-  }
-  .left_section:before {
-    width: 5%;
-    right: -5%;
-  }
-  .what_help,
-  .success_story,
-  .how_to_apply,
-  .best_design {
-    padding: 40px 0;
-  }
-  .wrpr_arrow.wrpr_arrow_top {
-    right: 5px;
-  }
-  .bg1 {
-    width: 90%;
-    margin: -16px auto 0;
-    font-size: 12px;
-  }
-  .bg2 {
-    width: 85%;
-    margin: -56px auto 0;
-    font-size: 12px;
-  }
-  .bg3 {
-    width: 80%;
-    margin: -77px auto 0;
-    font-size: 12px;
-  }
-  .filters-content .gallery_zoom .grid-item:last-child {
-    margin-bottom: 0px;
-  }
-  .filters-content .grid-item {
-    padding: 0;
-  }
-  .cat {
-    font-size: 14px;
-    line-height: 1.4;
-  }
-  .image-box-stories {
-    border-radius: 20px;
+  .portfolio .filters-content .p-inner h5 {
+    font-size: 17px;
   }
 }
-@media only screen and (max-width: 1023px) {
-  .slide h2 {
-    font-size: 40px;
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {.portfolio .filters ul li {padding: 20px 10px;
+    font: normal normal 500 15px Sora;}
+
+button.navTrigger {
+    display: none;
+}
   }
+
+
+
+@media only screen and (max-width: 1023px) {
+  .slide h2 {width: 90%;
+    font-size: 40px;   
+  }.col-md-9.toggle_box {
+    display: flex;
+}
   .slide p,
   .best_design h5 {
     font-size: 16px;
@@ -129,17 +61,193 @@
     margin-bottom: 0px;
   }
   .image-box-stories {
-    border-radius: 20px;
+    border-radius: 10px;
   }
 }
-@media only screen and (max-width: 1320px) {
-  .best_design ul li {
-    font-size: 12px;
+
+
+@media only screen and (max-width: 767px) {body{    overflow-x: hidden;}
+  header#masthead {
+    height: 60px;
+    background: #efebef;
+  }.site-branding {
+    height: 100%;
+}
+.portfolio .filters ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px 12px 20px 0;
+    font: normal normal 500 12px Sora;}
+    .portfolio .filters ul {display: flex;}
+  .dspy_dstp_none {
+    display: block;
+  }
+.main-navigation ul{opacity: 0;}
+img.custom-logo {
+    height: 35px;
+}
+ .menu_blog.toggled nav#site-navigation ul {opacity: 1;
+    display: block;
+    float: left;
+  }
+  .menu_blog {
+    padding: 0;    width: 100%;
+  }
+
+.main-navigation {
+    background-color: #efebef;
+    height: 90vh;
+    margin-left: -100%;
+    opacity: 0;
+    transition: 0.6s;
+    width: 0;
+}
+
+
+  .menu_blog.toggled nav#site-navigation  {
+    margin-left: 0;
+    opacity: 1;
+    width: 100%; background-color: #efebef;
+}.toggle_box {
+   /* margin-left: -100%;
+    opacity: 0;*/
+    width: 0;
+}
+
+.toggle_box.toggled {
+   /* margin-left: 0;
+    opacity: 1;*/
+    width: 100%;    margin: 0;
+    padding: 0;
+}
+
+  .main-navigation li {
+    margin: 2rem 0;
+  }
+  .slide h2 {
+    font-size: 30px;
+  }
+  .z-in-box {
+    z-index: 998;
+  }
+  .best_design img {
+    height: 250px;
+  }
+  .best_design h3,
+  .left_section_box h2,
+  .main_heading h2,.left_content_top h2 {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+  section.portfolio_hero {
+    padding: 0;
   }
   .portfolio .filters-content .item img {
-    height: 210px;
+    height: auto;
+    width: 100%;
   }
-  .portfolio .filters-content .p-inner h5 {
-    font-size: 17px;
+  .text_box_sty > div {
+    padding: 30px;
   }
+  .left_section {
+    padding: 20px;
+  }
+  .left_section:before {
+    width: 5%;
+    right: -5%;
+  }
+  .what_help,
+  .success_story,
+  .how_to_apply,
+  .best_design {    overflow: hidden;
+    padding: 40px 0;
+  }
+  .wrpr_arrow.wrpr_arrow_top {
+    right: 5px;
+  }
+  .bg1 {
+    width: 90%;
+    margin: -16px auto 0;
+    font-size: 12px;
+  }
+  .bg2 {
+    width: 85%;
+    margin: -56px auto 0;
+    font-size: 12px;
+  }
+  .bg3 {
+    width: 80%;
+    margin: -77px auto 0;
+    font-size: 12px;
+  }
+  .filters-content .gallery_zoom .grid-item:last-child {
+    margin-bottom: 0px;
+  }
+  .filters-content .grid-item {
+    padding: 0;
+  }
+  .cat {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  .image-box-stories {
+    border-radius: 10px;
+  } .slide h2 {width: 90%; font-size: 37px;
+    line-height: 1;
+  }.slide p, .best_design h5 {
+    font-size: 12px;
+}.common_btn {
+    width: 140px;
+    height: 50px;
+    font: normal normal normal 16px/22px Sora;}
+
+.portfolio .filters ul li.active:after {width: 30px;}
+.portfolio .filters ul li:after {top: 49px;background-size: 12px;}
+
+.swiper-button-prev, .swiper-rtl .swiper-button-next{left: 0}
+.swiper-button-next, .swiper-rtl .swiper-button-prev {right: 0px;}
+.how_to_apply .container {
+    margin: 10px 0 60px;
 }
+.left_content_top h1 a{    font-size: 18px;}
+ul.ftr_social {
+    margin: 10px 0 30px;
+}
+p.links_stories {
+    top: 25%;}
+.background_circle .circle.big1 {
+    height: 60px !important;
+    width: 60px !important;
+}
+.background_circle .circle.big4{
+    height: 30px !important;
+    width: 30px !important;
+}
+
+.background_circle .circle.big5{
+    height: 50px !important;
+    width: 50px !important;
+}
+}
+
+@media only screen and (max-width: 567px) {
+.portfolio .filters ul li {    font: normal normal 500 10px Sora;}
+.best_design img {
+    width: 100%;
+}.best_design h3, .left_section_box h2, .main_heading h2, .left_content_top h2 {
+    font-size: 25px;}
+.portfolio .filters ul li.active:after {
+    width: 17px;    top: 44px;
+    background-size: 15px;
+}
+
+
+}
+
+
+
+@media (max-width:812px) and (min-width: 375px) and  (orientation: landscape) {
+.main_wrapper.fixed {
+    z-index: 999;}.slide {
+    height: 500px;}
+    }

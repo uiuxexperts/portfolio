@@ -1,4 +1,4 @@
-$('#contactform').validate({
+jQuery('#contactform').validate({
 	rules:{
 		name:"required",
 		email:{
@@ -36,12 +36,12 @@ $('#contactform').validate({
                     {
                         $('#contactform').trigger("reset");
                         //return true;
-                        $('.msgdiv').append('<div id="msgdiv" class="alert alert-success">'+msg.text+'</div>');
+                        $('.msgdiv').append('<div id="msgdiv" class="alert alert-success">'+msg.text+'</div><img src="images/thumb.png">');
                         $('#msgdiv').delay(5000).fadeOut('slow');
                     }
                     else
                     {
-                        $('.msgdiv').append('<div id="msgdiv" class="alert alert-danger">'+msg.text+'</div>');
+                        $('.msgdiv').append('<div id="msgdiv" class="alert alert-danger">'+msg.text+'</div><img src="images/sad-face.png">');
                         $('#msgdiv').delay(5000).fadeOut('slow');
                         // alert('Server error');
                         // return false;

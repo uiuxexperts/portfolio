@@ -1,0 +1,27 @@
+<svg id="Group_1891" data-name="Group 1891" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" y1="0.232" x2="0" y2="0.225" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fce7f6"/>
+      <stop offset="1" stop-color="#e3eaf8"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1686" data-name="Rectangle 1686" width="1920" height="1080" fill="url(#linear-gradient)"/>
+    </clipPath>
+    <radialGradient id="radial-gradient" cx="0.695" cy="0.64" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fecbe2"/>
+      <stop offset="0" stop-color="#fed0e5"/>
+      <stop offset="1" stop-color="#fff6fb"/>
+    </radialGradient>
+  </defs>
+  <rect id="Rectangle_1" data-name="Rectangle 1" width="1920" height="1080" fill="url(#linear-gradient)"/>
+  <g id="Mask_Group_77" data-name="Mask Group 77" clip-path="url(#clip-path)">
+    <g id="Group_1650" data-name="Group 1650">
+      <circle id="Ellipse_10" data-name="Ellipse 10" cx="137.5" cy="137.5" r="137.5" transform="translate(-95 219)" fill="url(#radial-gradient)"/>
+      <circle id="Ellipse_6" data-name="Ellipse 6" cx="102.5" cy="102.5" r="102.5" transform="translate(1214 201)" fill="url(#radial-gradient)"/>
+      <circle id="Ellipse_7" data-name="Ellipse 7" cx="48" cy="48" r="48" transform="translate(1337 171)" opacity="0.45" fill="url(#radial-gradient)"/>
+      <circle id="Ellipse_8" data-name="Ellipse 8" cx="69.5" cy="69.5" r="69.5" transform="translate(649 798)" fill="url(#radial-gradient)"/>
+      <circle id="Ellipse_11" data-name="Ellipse 11" cx="69.5" cy="69.5" r="69.5" transform="translate(1836 993)" fill="url(#radial-gradient)"/>
+      <circle id="Ellipse_9" data-name="Ellipse 9" cx="37.5" cy="37.5" r="37.5" transform="translate(59 937)" fill="url(#radial-gradient)"/>
+    </g>
+  </g>
+</svg>
