@@ -184,7 +184,9 @@ img.custom-logo {
     margin-bottom: 0px;
   }
   .filters-content .grid-item {
-    padding: 0;
+       padding: 0;
+    position: relative !important;
+    top: inherit !important;
   }
   .cat {
     font-size: 14px;
@@ -193,7 +195,7 @@ img.custom-logo {
   .image-box-stories {
     border-radius: 10px;
   } .slide h2 {width: 90%; font-size: 37px;
-    line-height: 1;
+    line-height: 1.2;
   }.slide p, .best_design h5 {
     font-size: 12px;
 }.common_btn {
