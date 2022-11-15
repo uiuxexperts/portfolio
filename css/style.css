@@ -264,11 +264,12 @@ img.custom-logo {
     -webkit-text-fill-color: transparent;  margin-bottom: 20px;
 }
 .slide p,.best_design h5 {
-       color: #D941AB;
-    font-size: 20px;
+          color: #D941AB;
+    font-size: 14px;
     font-weight: normal;
-    text-transform: uppercase;margin-bottom: 0;  
-    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    letter-spacing: 1.1px;
 }
 .main_wrapper {
     position: fixed;
