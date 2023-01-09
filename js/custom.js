@@ -8,9 +8,20 @@ $(window).on('scroll', function () {
    scroll = $(window).scrollTop();
    if (scroll >= 100) {
       $(".main_wrapper").addClass('fixed');
+      $('.header-sticky').addClass('header-scrolled');
+      $('.header_main').addClass('fadeOutUp');
+      $('.header_main').removeClass('fadeInDown');
+      $('.header-sticky').addClass('fadeInDown');
+      $('.header-sticky').removeClass('fadeOutUp');
+      $('.header-sticky').addClass('animated');
       //$("#reveal1").addClass('visible')
    } else {
       $(".main_wrapper").removeClass('fixed');
+      $('.header-sticky').removeClass('header-scrolled');
+      $('.header_main').addClass('fadeInDown');
+      $('.header_main').removeClass('fadeOutUp');
+      $('.header-sticky').addClass('fadeOutUp');
+      $('.header-sticky').removeClass('fadeInUp');
       //$("#reveal1").removeClass('visible')
    }
 });
